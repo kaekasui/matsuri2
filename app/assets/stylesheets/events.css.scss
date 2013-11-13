@@ -7,6 +7,13 @@
   line-height: 14px;
 }
 
+.shadow img {
+  position: relative;
+  top: -110px;
+  left: 10px;
+  opacity: 0.2;
+}
+
 p.description {
   color: #555555;
   padding: 30px 0px 20px 0px;

@@ -1,6 +1,9 @@
 - model_class = Event
 
-=image_tag "logo.png"
+.logo
+  .original= image_tag "logo.png"
+  .shadow= image_tag "logo.png" 
+
 %p.description= @event.description
 %ul.event-info
   %li
